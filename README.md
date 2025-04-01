@@ -1,17 +1,42 @@
-# React + Vite
+# PEGAS – Car Rental Platform (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview  
+PEGAS is a web-based **car rental platform** built with **React**, providing an intuitive and user-friendly experience for clients to submit rental requests. The frontend serves as the main interface, allowing users to explore the service and submit their contact details via a request form. The submitted data is sent to the **FastAPI backend**, which stores the request and triggers an **Aiogram-powered Telegram bot** to notify administrators.  
 
-Currently, two official plugins are available:
+## Features  
+- 🚗 **Landing Page** – A dynamic, responsive interface with essential components for client interaction.  
+- 📩 **Contact Form** – Clients enter their details and submit rental requests seamlessly.  
+- 🔄 **API Integration** – Communicates with the FastAPI backend to process and store requests securely.  
+- 🎨 **Modern UI** – Built with React and styled for an optimal user experience.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack  
+- **Frontend:** React, Bootstrap  
+- **Backend:** FastAPI, PostgreSQL  
+- **Bot:** Aiogram (Telegram Bot)  
+- **Deployment:** AWS, NGINX  
 
+## Setup & Installation  
+### 1. Clone the Repository  
+```bash
+git clone https://github.com/elBukhara/PEGAS.git
+cd PEGAS
+```
 
-Set up:
+### 2. Install Dependencies  
+```bash
+npm install
+```
 
-    npm create vite@latest project-name -- --template react
-    cd project-name
+### 3. Start the Development Server  
+```bash
+npm run dev
+```
+The application will be available at **http://localhost:5173**.  
 
-    npm install react-router-dom dotenv
-    npm run dev
+## Backend & Bot Integration  
+- The frontend sends request data to the **FastAPI backend** via API calls.  
+- Once processed, the backend triggers an **Aiogram bot** to notify administrators via Telegram.  
+- Admins can manage requests directly within Telegram, approving or rejecting them.  
+
+## Demo Bot Functionalities
+_A video demonstration of the bot functionality will be uploaded soon._
