@@ -1,5 +1,7 @@
 # PEGAS – Car Rental Platform (Frontend)
 
+![site-cover](https://github.com/user-attachments/assets/b4ab1f04-7187-410c-a490-47a6a958ae03)
+
 ## Overview  
 PEGAS is a web-based **car rental platform** built with **React**, providing an intuitive and user-friendly experience for clients to submit rental requests. The frontend serves as the main interface, allowing users to explore the service and submit their contact details via a request form. The submitted data is sent to the **FastAPI backend**, which stores the request and triggers an **Aiogram-powered Telegram bot** to notify administrators.  
 
@@ -39,4 +41,5 @@ The application will be available at **http://localhost:5173**.
 - Admins can manage requests directly within Telegram, approving or rejecting them.  
 
 ## Demo Bot Functionalities
-_A video demonstration of the bot functionality will be uploaded soon._
+
+[bot-video](https://github.com/user-attachments/assets/e62b20b5-3624-4417-9793-75fc4f7999b0)
